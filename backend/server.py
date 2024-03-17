@@ -6,9 +6,8 @@ from flask_cors import CORS
 
 app=Flask(__name__)
 
-cors = CORS(app)
+CORS(app,resources={r"/predict/*": {"origins": "*"}})
 
-app = Flask(__name__)
 
 # Load the TFLite model
 interpreter = tf.lite.Interpreter(model_path="mn_my_model.tflite")
@@ -19,7 +18,7 @@ input_details = interpreter.get_input_details()
 output_details = interpreter.get_output_details()
 
 
-@app.route('/img', methods=['POST'])
+@app.route('/predict', methods=['POST'])
 def successor():    
     f = request.files['file'] 
     f = f.read()  
