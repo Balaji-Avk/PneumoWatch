@@ -1,7 +1,10 @@
 import React from "react";
+import { useNavigate } from "react-router-dom";
+import { Link } from "react-router-dom"
 
 export function ResultPage() {
   const resultVal = localStorage.getItem("resultVal");
+  const navigate = useNavigate();
   let message = "";
 
   if (resultVal === "true") {
@@ -51,5 +54,12 @@ export function ResultPage() {
     );
   }
 
-  return <div>{message}</div>;
+  return <div>
+      {message}
+      <div style={{textAlign:"right",marginRight:"4px"}}>
+        <Link to={'/'}>
+          Navigate to Home
+        </Link>
+      </div>
+    </div>;
 }

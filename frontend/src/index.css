@@ -81,6 +81,8 @@
     border-radius: 50px;
     color: #fff;
     font-size: larger;
+    margin-left: 3px;
+    margin-right: 3px;
   }
 
   img {
