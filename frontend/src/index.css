@@ -1,0 +1,170 @@
+@import url("https://fonts.googleapis.com/css2?family=Outfit&display=swap");
+* {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.nav {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  font-size: larger;
+  padding: 15px 17%;
+
+  .rnav {
+    display: flex;
+    align-items: center;
+    font-size: larger;
+    font-weight: 600;
+    img {
+      height: 50px;
+      width: 50px;
+      padding-right: 5px;
+    }
+  }
+
+  .github {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 40px;
+    width: 130px;
+    border: 1px solid black;
+    background: #1a1a1a;
+    border-radius: 50px;
+    a {
+      color: #fff;
+      text-decoration: none;
+    }
+  }
+}
+
+.hero {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  h1 {
+    font-size: 90px;
+    position: relative;
+    bottom: 30px;
+  }
+  h2 {
+    position: relative;
+    font-size: 50px;
+    bottom: 140px;
+  }
+  p {
+    font-size: x-large;
+    text-align: center;
+    position: relative;
+    bottom: 170px;
+  }
+}
+
+.imgf {
+  position: relative;
+  bottom: 150px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 40px;
+    width: 130px;
+    border: 1px solid black;
+    background: #1a1a1a;
+    border-radius: 50px;
+    color: #fff;
+    font-size: larger;
+  }
+
+  img {
+    height: 200px;
+    width: 200px;
+    /* position: relative;
+    top: 150px;
+    right: 100px; */
+  }
+}
+
+.imgf {
+  text-align: center;
+}
+
+.custom-file-upload {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 40px;
+  width: 130px;
+  border-radius: 50px;
+  font-size: larger;
+  border: 2px solid #1a1a1a;
+  transition: background-color 0.3s ease;
+}
+
+.custom-file-upload:hover {
+  background-color: #1a1a1a;
+  color: #fff;
+}
+
+.upload-btn:hover {
+  color: #1a1a1a;
+  background-color: #fff;
+  border: 2px solid #1a1a1a;
+}
+
+.true {
+  display: flex;
+  padding: 50px 60px;
+  h1 {
+    color: orangered;
+    font-size: xxx-large;
+  }
+  p {
+    font-size: 25px;
+    padding-top: 20px;
+    inline-size: 88%;
+    line-height: 30px;
+  }
+  img {
+    height: 500px;
+    width: 500px;
+    padding-left: 50px;
+  }
+  .msg-t {
+    padding-top: 65px;
+  }
+}
+
+.false {
+  display: flex;
+  padding: 50px 60px;
+  color: green;
+  img {
+    height: 500px;
+    width: 500px;
+    padding-right: 50px;
+  }
+  .msg-f {
+    padding-top: 95px;
+  }
+  h1 {
+    color: green;
+    font-size: 35px;
+  }
+  ul {
+    line-height: 30px;
+    font-size: larger;
+    font-weight: bolder;
+  }
+  p {
+    font-size: larger;
+    font-weight: bolder;
+  }
+}
