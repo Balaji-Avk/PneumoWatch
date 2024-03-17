@@ -1,10 +1,8 @@
-import './App.css'
-import {BrowserRouter,Route,Routes} from "react-router-dom";
-import {Home} from './screens/Home';
-import {ResultPage} from './screens/ResultPage';
+import { BrowserRouter, Route, Routes } from "react-router-dom";
+import { Home } from "./screens/Home";
+import { ResultPage } from "./screens/ResultPage";
 
 function App() {
-
   return (
     <>
       <BrowserRouter>
@@ -14,7 +12,7 @@ function App() {
         </Routes>
       </BrowserRouter>
     </>
-  )
+  );
 }
 
-export default App
+export default App;
