@@ -17,6 +17,9 @@ interpreter.allocate_tensors()
 input_details = interpreter.get_input_details()
 output_details = interpreter.get_output_details()
 
+@app.route('/',methods=['GET'])
+def startServer():
+    return "if you are seeing this, means server has started"
 
 @app.route('/predict', methods=['POST'])
 def successor():    
