@@ -37,3 +37,12 @@ start the frontend server
 ```bash
   npm run dev
 ```
+
+## Screenshots
+
+![image](https://github.com/Balaji-Avk/PneumoWatch/assets/132835499/63cd8452-1ec4-4bc4-ac78-bfb57494287c)
+
+![image](https://github.com/Balaji-Avk/PneumoWatch/assets/132835499/1d29dece-7779-4d96-b402-28ee21031ca5)
+
+![image](https://github.com/Balaji-Avk/PneumoWatch/assets/132835499/7c3fb594-920d-4409-9cbb-c698fd04ad0e)
+
