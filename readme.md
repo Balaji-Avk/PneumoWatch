@@ -46,3 +46,8 @@ start the frontend server
 
 ![image](https://github.com/Balaji-Avk/PneumoWatch/assets/132835499/7c3fb594-920d-4409-9cbb-c698fd04ad0e)
 
+
+## Accuracy
+
+![image](https://github.com/Balaji-Avk/PneumoWatch/assets/132835499/4282a99d-e8f0-4926-9bfc-bc8f72c3919f)
+
